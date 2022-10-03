@@ -1,4 +1,4 @@
-var server = "https://hilarious-maamoul-dc3f3b.netlify.app:8000/";
+var server = "https://hilarious-maamoul-dc3f3b.netlify.app/";
 var todolist_server = server + "todo"
 
 function getCompletedTodos(){
