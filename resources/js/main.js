@@ -1,4 +1,4 @@
-var server = ":8080/";
+var server = "netflify.app:8080/";
 var todolist_server = server + "todo"
 
 function getCompletedTodos(){
