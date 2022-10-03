@@ -132,5 +132,5 @@ func main() {
 	handler := cors.New(cors.Options{
 		AllowedMethods: []string{"GET", "POST", "DELETE", "PATCH", "OPTIONS"},
 	}).Handler(router)
-	http.ListenAndServe(":1234", handler)
+	http.ListenAndServe("", handler)
 }
