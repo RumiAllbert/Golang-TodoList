@@ -14,7 +14,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-var db, _ = gorm.Open("mysql", "https://hilarious-maamoul-dc3f3b.netlify.app:https://hilarious-maamoul-dc3f3b.netlify.app@/todolist?charset=utf8&parseTime=True&loc=Local")
+var db, _ = gorm.Open("mysql", "root:root@/todolist?charset=utf8&parseTime=True")
 
 type TodoItemModel struct {
 	Id          int `gorm:"primary_key"`
